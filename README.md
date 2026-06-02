@@ -1,89 +1,241 @@
-# Library Management System (LMS)
+# 📚 SmartLibrary Management System
 
-School library web app: books, students, borrowing, returns, and reports. Supports **MySQL** or **MongoDB**.
+<div align="center">
 
-## Project layout
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,50:8E2DE2,100:DA22FF&height=220&section=header&text=SmartLibrary%20System&fontSize=40&fontColor=ffffff" />
 
+### Modern • Digital • Efficient Library Management Platform
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&color=DA22FF&center=true&vCenter=true&width=700&lines=Library+Management+System;Book+Tracking+Platform;Digital+Library+Solution;Modern+Education+Management+System" />
+
+</div>
+
+---
+
+# 📖 About The Project
+
+**SmartLibrary Management System** is a modern web-based platform designed to automate and streamline library operations. It provides an efficient way to manage books, members, borrowing activities, returns, and reporting through a centralized digital solution.
+
+The system replaces traditional paper-based record keeping and helps libraries improve efficiency, accuracy, and accessibility.
+
+---
+
+# ✨ Key Features
+
+## 📚 Book Management
+
+* Add new books
+* Update book details
+* Delete books
+* Search books by title, author, ISBN, or category
+* Track available and borrowed books
+* Manage book inventory
+
+## 👥 Member Management
+
+* Register library members
+* Update member profiles
+* View membership details
+* Manage user records
+* Track member activities
+
+## 🔄 Borrowing & Returning
+
+* Borrow books
+* Return books
+* Track due dates
+* Borrowing history management
+* Overdue monitoring
+
+## 📊 Dashboard & Analytics
+
+* Total books overview
+* Registered members statistics
+* Active borrowings
+* Library activity reports
+* Real-time system insights
+
+## 🔐 Authentication & Security
+
+* Secure Login System
+* JWT Authentication
+* Role-Based Access Control
+* Password Encryption
+* Protected Routes
+
+## 📱 Responsive Design
+
+* Mobile Friendly
+* Tablet Support
+* Desktop Optimized
+* Modern User Interface
+
+---
+
+# 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Axios
+* React Router DOM
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+* Mongoose
+
+### Authentication
+
+* JWT (JSON Web Token)
+* bcryptjs
+
+### Deployment
+
+* Vercel
+* Render
+* Railway
+* Koyeb
+
+---
+
+# 🏗️ System Architecture
+
+Frontend (React)
+
+⬇
+
+Backend API (Node.js + Express)
+
+⬇
+
+MongoDB Database
+
+---
+
+# 📂 Project Structure
+
+```plaintext
+SmartLibrary/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── assets/
+│
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   └── server.js
+│
+├── README.md
+└── package.json
 ```
-lms/
-├── frontend/          # React + Vite (port 5828)
-├── backend-mysql/     # Express + MySQL (port 5827)
-└── backend-mongodb/   # Express + MongoDB (port 5827)
-```
 
-Run **one** backend at a time on port 5827.
+---
 
-## Installation
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
 
 ```bash
-cd backend-mysql && npm install
-cd ../backend-mongodb && npm install
-cd ../frontend && npm install
+git clone https://github.com/your-username/SmartLibrary.git
+cd SmartLibrary
 ```
 
-## Database setup (MySQL)
+---
 
-```bash
-cd backend-mysql
-cp .env.example .env
-npm run db:init
-```
+## 2️⃣ Install Dependencies
 
-Database name: **LMS**
 
-## Run development
 
-**MySQL API:**
+# 📸 System Modules
 
-```bash
-cd backend-mysql && npm run dev
-```
+* Dashboard
+* Book Management
+* Member Management
+* Borrowing System
+* Return Management
+* User Management
+* Reports & Analytics
+* Authentication System
 
-**MongoDB API** (default URI: `mongodb://127.0.0.1:27017/lms`):
+---
 
-```bash
-cd backend-mongodb && npm run dev
-```
+# 🎯 Project Objectives
 
-**Frontend:**
+The system aims to:
 
-```bash
-cd frontend && npm run dev
-```
+* Digitize library operations
+* Improve book tracking efficiency
+* Reduce manual paperwork
+* Enhance user experience
+* Increase data accuracy
+* Generate useful reports
+* Improve resource management
 
-Open **[http://localhost:5828](http://localhost:5828)** — API at **[http://localhost:5827](http://localhost:5827)**.
+---
 
-On startup each backend seeds demo users (and sample students/books on an empty database).
+# 📈 Future Improvements
 
-## Demo logins
+* Online Book Reservation
+* Email Notifications
+* Fine Management System
+* QR Code Integration
+* Barcode Scanning
+* Digital Library Resources
+* Mobile Application
+* AI Book Recommendations
+* Real-Time Notifications
 
-| Role      | Username    | Password       |
-| --------- | ----------- | -------------- |
-| Admin     | `admin`     | `admin123`     |
-| Librarian | `librarian` | `librarian123` |
+---
 
-- **Admin** — manage students and books, all features  
-- **Librarian** — borrow, return, search, reports
+# 🤝 Contributing
 
-## Environment variables
+1. Fork Repository
+2. Create Feature Branch
+3. Commit Changes
+4. Push Branch
+5. Open Pull Request
 
-### backend-mysql
+---
 
-| Variable        | Description        |
-| --------------- | ------------------ |
-| PORT            | API port (5827)    |
-| DB_HOST         | MySQL host         |
-| DB_USER         | MySQL user         |
-| DB_PASSWORD     | MySQL password     |
-| DB_NAME         | Database (LMS)     |
-| SESSION_SECRET  | Session signing    |
-| FRONTEND_URL    | CORS origin        |
+# 👨‍💻 Developer
 
-### backend-mongodb
+CYIZERE HIRWA Cedric
 
-| Variable        | Description        |
-| --------------- | ------------------ |
-| PORT            | API port (5827)    |
-| MONGO_URI       | MongoDB connection |
-| SESSION_SECRET  | Session signing    |
-| FRONTEND_URL    | CORS origin        |
+Full-Stack Developer | Rwanda
+
+GitHub: https://github.com/your-username
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share it with others.
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,50:8E2DE2,100:DA22FF&height=120&section=footer" />
+
+</div>
